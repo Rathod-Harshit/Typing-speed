@@ -1,0 +1,78 @@
+    body {
+        padding: 0;
+        margin: 0;
+        font-style: sans-serif;
+    }
+    
+    .welcome-note {
+        background: darkmagenta;
+        padding: 1em 2em;
+    }
+    
+    .welcome-note h1 {
+        text-align: center;
+    }
+    
+    .instructions {
+        background: peachpuff;
+        padding: 2.5em 2em;
+        color: rgb(107, 47, 67);
+    }
+    
+    .instructions p {
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .work-area {
+        max-width: 550px;
+        padding: 0 2em;
+        margin: 0 auto;
+    }
+    
+    .test-sent {
+        background: cadetblue;
+        padding: 1em 1em;
+        margin: 1em 0;
+    }
+    
+    .test-sent p {
+        font-size: 17px;
+    }
+    
+    .input-box {
+        border: 10px solid grey;
+        border-radius: 10px;
+        display: flex;
+    }
+    
+    #text-box {
+        flex: 1;
+    }
+    
+    .event-area {
+        margin-top: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .count {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    .btn-reset {
+        border: 10px solid #be4706;
+        color: #be4706;
+        border-radius: 10px;
+        padding: 0.5em 1em;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+    
+    .btn-reset:hover {
+        background: #be4706;
+        color: rgb(240, 240, 240);
+    }
