@@ -5,7 +5,7 @@
     }
     
     .welcome-note {
-        background: darkmagenta;
+        background: lightblue;
         padding: 1em 2em;
     }
     
@@ -22,6 +22,7 @@
     .instructions p {
         text-align: center;
         font-size: 22px;
+        padding: 0 17em;
     }
     
     .work-area {
